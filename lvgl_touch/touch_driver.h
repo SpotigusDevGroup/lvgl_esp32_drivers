@@ -56,4 +56,3 @@ bool touch_driver_read(lv_indev_drv_t *drv, lv_indev_data_t *data);
 #endif
 
 #endif /* TOUCH_DRIVER_H */
-

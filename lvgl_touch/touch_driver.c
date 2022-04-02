@@ -4,6 +4,7 @@
 
 #include "touch_driver.h"
 #include "tp_spi.h"
+#include "tp_i2c.h"
 
 
 void touch_driver_init(void)
@@ -55,4 +56,3 @@ bool touch_driver_read(lv_indev_drv_t *drv, lv_indev_data_t *data)
     return res;
 #endif
 }
-
